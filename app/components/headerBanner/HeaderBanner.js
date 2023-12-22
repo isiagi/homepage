@@ -3,7 +3,7 @@ import { CiCoffeeBean } from "react-icons/ci";
 
 function HeaderBanner({ title }) {
   return (
-    <div className="flex flex-col justify-center items-center pt-20 pb-14">
+    <div className="flex flex-col justify-center items-center pt-24 pb-20">
       <h1 className="text-4xl text-slate-800">{title}</h1>
       <div className="py-3">
         <CiCoffeeBean className="text-[#BE9C79] text-4xl" />

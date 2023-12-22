@@ -14,7 +14,7 @@ function Offer() {
         <div className="text-center">
           <DiCoffeescript className="text-[#BE9C79] text-6xl mx-auto" />
           <h3 className="text-xl text-slate-800 py-2">COFFEE TO GO</h3>
-          <p className="text-slate-800">
+          <p className="text-slate-600">
             Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus.
             Aeneantos commodo
           </p>
@@ -23,7 +23,7 @@ function Offer() {
         <div className="text-center">
           <GiCoffeeBeans className="text-[#BE9C79] text-6xl mx-auto" />
           <h3 className="text-xl text-slate-800 py-2">Type of Coffee</h3>
-          <p>
+          <p className="text-slate-600">
             Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus.
             Aeneantos commodo
           </p>
@@ -32,7 +32,7 @@ function Offer() {
         <div className="text-center">
           <GiSlicedBread className="text-[#BE9C79] text-6xl mx-auto" />
           <h3 className="text-xl text-slate-800 py-2">BEAN VARIETIES</h3>
-          <p>
+          <p className="text-slate-600">
             Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus.
             Aeneantos commodo
           </p>
@@ -41,7 +41,7 @@ function Offer() {
         <div className="text-center">
           <SiBuymeacoffee className="text-[#BE9C79] text-6xl mx-auto" />
           <h3 className="text-xl text-slate-800 py-2">COFFEE & PASTRY</h3>
-          <p>
+          <p className="text-slate-600">
             Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus.
             Aeneantos commodo
           </p>

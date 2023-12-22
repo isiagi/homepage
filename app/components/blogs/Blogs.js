@@ -10,9 +10,7 @@ function Blogs() {
       <div className="grid grid-cols-fluid gap-5">
         <div>
           <Image
-            src={
-              "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTg5fHxjb2ZmZWUlMjBjdXAlMjBsZWZ0fGVufDB8fDB8fHww"
-            }
+            src={"/images/four.jpg"}
             alt={"coffee"}
             width={0}
             height={0}
@@ -24,7 +22,7 @@ function Blogs() {
             }}
           />
 
-          <h3>
+          <h3 className="text-slate-600">
             Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue.
             Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus
             maecenas tempus,
@@ -34,9 +32,7 @@ function Blogs() {
 
         <div>
           <Image
-            src={
-              "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTg5fHxjb2ZmZWUlMjBjdXAlMjBsZWZ0fGVufDB8fDB8fHww"
-            }
+            src={"/images/five.jpg"}
             alt={"coffee"}
             width={0}
             height={0}
@@ -48,7 +44,7 @@ function Blogs() {
             }}
           />
 
-          <h3>
+          <h3 className="text-slate-600">
             Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue.
             Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus
             maecenas tempus,
@@ -58,9 +54,7 @@ function Blogs() {
 
         <div>
           <Image
-            src={
-              "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTg5fHxjb2ZmZWUlMjBjdXAlMjBsZWZ0fGVufDB8fDB8fHww"
-            }
+            src={"/images/eight.jpg"}
             alt={"coffee"}
             width={0}
             height={0}
@@ -72,7 +66,7 @@ function Blogs() {
             }}
           />
 
-          <h3>
+          <h3 className="text-slate-600">
             Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue.
             Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus
             maecenas tempus,

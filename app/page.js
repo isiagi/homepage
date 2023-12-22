@@ -1,4 +1,6 @@
+import Banner from "./components/banner/Banner";
 import Blogs from "./components/blogs/Blogs";
+import Footer from "./components/footer/Footer";
 import FooterBanner from "./components/footerBanner/FooterBanner";
 import Galley from "./components/galley/Galley";
 import Hero from "./components/hero/Hero";
@@ -13,7 +15,9 @@ export default function Home() {
       <Offer />
       <Blogs />
       <Galley />
+      <Banner />
       <FooterBanner />
+      <Footer />
     </>
   );
 }
