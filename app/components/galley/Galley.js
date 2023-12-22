@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import HeaderBanner from "../headerBanner/HeaderBanner";
 
-const imgArray = [
+const galleyArray = [
   {
     id: 1,
     img: "/images/two.jpg",
@@ -40,7 +40,7 @@ function Galley() {
     <div className="pb-14">
       <HeaderBanner title={"OUR SWEET GALLERY"} />
       <div className="grid grid-cols-fluid gap-5">
-        {imgArray.map(({ id, img, title }) => (
+        {galleyArray.map(({ id, img, title }) => (
           <div key={id} className="group relative">
             <div className="">
               <Image
@@ -59,7 +59,7 @@ function Galley() {
             <div className="absolute bottom-0 bg-[#000] bg-opacity-[0.5] w-full h-full opacity-0 group-hover:opacity-[1] flex items-center justify-center">
               <div className="text-white">
                 <h1 className="text-2xl">{title}</h1>
-                <p>love / hey</p>
+                <p>coffee / cup</p>
               </div>
             </div>
           </div>
