@@ -41,14 +41,18 @@ function Blogs() {
               }}
             />
 
-            <h2>{title}</h2>
+            <h2 className="hover:text-[#BE9C79] py-2 text-xl cursor-pointer">
+              {title}
+            </h2>
 
             <h3 className="text-slate-600">
               Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue.
               Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus
               maecenas tempus,
             </h3>
-            <p className="hover:text-[#BE9C79] hover:pl-2">- Learn More</p>
+            <p className="hover:text-[#BE9C79] hover:pl-2 font-semibold pt-2 cursor-pointer">
+              - Learn More
+            </p>
           </div>
         ))}
       </div>

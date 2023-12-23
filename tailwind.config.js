@@ -17,5 +17,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-classnames"],
+  customAttributes: ["className"],
+  customFunctions: ["classNames"],
 };
