@@ -10,7 +10,7 @@ function Offer() {
     <div className="pb-20">
       <HeaderBanner title={"OUR DELICIOUS OFFER"} />
 
-      <div className="px-5 grid grid-cols-fluid place-items-center">
+      <div className="px-5 grid grid-cols-fluid place-items-center gap-3">
         <div className="text-center">
           <DiCoffeescript className="text-[#BE9C79] text-6xl mx-auto" />
           <h3 className="text-xl text-slate-800 py-2">COFFEE TO GO</h3>

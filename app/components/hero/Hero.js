@@ -5,7 +5,11 @@ import { SiCoffeescript } from "react-icons/si";
 
 function Hero() {
   return (
-    <div className="bg-[url('/images/home1.jpg')] bg-black bg-opacity-[0.4] bg-blend-overlay min-h-[100vh] bg-cover bg-fixed bg-no-repeat bg-center text-white flex items-center md:justify-end justify-center">
+    <div
+      className="bg-[url('/images/home1.jpg')] bg-black bg-opacity-[0.4] bg-blend-overlay min-h-[100vh] 
+    bg-cover bg-fixed bg-no-repeat bg-center text-white 
+    flex items-center md:justify-end justify-center"
+    >
       <div className="px-5 flex flex-col items-center">
         <div className="flex justify-center mb-5">
           <SiCoffeescript className="text-7xl" />
